@@ -8,5 +8,9 @@ actor DBank {
 
   Debug.print(debug_show(id));
 
-  Debug.print(debug_show(currentValue))
+  func topUp () {
+    currentValue += 1;
+      Debug.print(debug_show(currentValue))
+
+  }
 }
